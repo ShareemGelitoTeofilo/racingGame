@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8605c010-7733-4085-b281-fddf5b176c68" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/database/BidderDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#insert#0;class#BidderDAO#0" />
+                <element signature="method#get#0;class#BidderDAO#0" />
+                <element signature="method#get#1;class#BidderDAO#0" />
+                <element signature="method#getBidderOfRacer#0;class#BidderDAO#0" />
+                <element signature="method#extractBidder#0;class#BidderDAO#0" />
+                <element signature="method#getAll#0;class#BidderDAO#0" />
+                <element signature="method#update#0;class#BidderDAO#0" />
+                <element signature="method#delete#0;class#BidderDAO#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/TestDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/database/ConnectionConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/racegame/RaceGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="389" column="25" selection-start-line="389" selection-start-column="25" selection-end-line="389" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/database/RacerDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getAll#0;class#RacerDAO#0" />
+                <element signature="method#update#0;class#RacerDAO#0" />
+                <element signature="method#delete#0;class#RacerDAO#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForExistingPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForNewPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/racegame/character/Racer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/database/RaceGameDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#insert#0;class#RaceGameDAO#0" />
+                <element signature="method#get#0;class#RaceGameDAO#0" />
+                <element signature="method#getPlayerRaceGame#0;class#RaceGameDAO#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console</find>
+      <find>size()</find>
+      <find>==</find>
+      <find>vehicle_id</find>
+      <find>query</find>
+      <find>save</find>
+      <find>startRace</find>
+      <find>prompt</find>
+      <find>loadNe</find>
+      <find>showRace</find>
+      <find>load</find>
+      <find>play</find>
+      <find>show</find>
+      <find>loadNew</find>
+      <find>Load</find>
+      <find>init</find>
+      <find>saveGame</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/watercraft/WatercraftFactory.java" />
+        <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/bidder/action/Obstacle.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/bidder/action/BidderActionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/bidder/action/GiveBoosterToRacerStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/bidder/action/PutObstacleToTargetStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/InputChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/database/App.java" />
+        <option value="$PROJECT_DIR$/src/com/database/PersonDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/Square.java" />
+        <option value="$PROJECT_DIR$/src/Shape.java" />
+        <option value="$PROJECT_DIR$/src/Square.java" />
+        <option value="$PROJECT_DIR$/src/com/vehicle/VehicleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/automobile/Sedan.java" />
+        <option value="$PROJECT_DIR$/src/com/automobile/Tank.java" />
+        <option value="$PROJECT_DIR$/src/com/automobile/Suv.java" />
+        <option value="$PROJECT_DIR$/src/com/automobile/Automobile.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceDao.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceGameService.java" />
+        <option value="$PROJECT_DIR$/src/com/vehicle/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/database/Connection.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceRankingDAOTest.groovy" />
+        <option value="$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForExisitingPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/database/BidderDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForExistingPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForNewPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/bidder/Bidder.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/character/Racer.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceGameDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceRankingDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/application/GameSimulator_v2.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/RaceGame_v2.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame2/RaceGame.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame2/savinggame/SaveGameForNewPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/RaceGame_Orig" />
+        <option value="$PROJECT_DIR$/src/com/racegame/application/RaceGame_Orig" />
+        <option value="$PROJECT_DIR$/src/com/racegame/application/RaceGame_Orig_isaPagid" />
+        <option value="$PROJECT_DIR$/src/com/racegame/application/GameSimulator_Orig" />
+        <option value="$PROJECT_DIR$/src/com/racegame/menucommands/MenuCommands.java" />
+        <option value="$PROJECT_DIR$/src/com/TestDrive.java" />
+        <option value="$PROJECT_DIR$/src/com/automobile/AutomobileFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/RaceGame.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/application/GameSimulator.java" />
+        <option value="$PROJECT_DIR$/src/com/racegame/RaceRanking.java" />
+        <option value="$PROJECT_DIR$/src/com/database/ConnectionConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RaceGameLogic.java" />
+        <option value="$PROJECT_DIR$/src/com/database/VehicleDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/database/RacerDAO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="racegame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VehicleManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VehicleManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="racegame" type="462c0819:PsiDirectoryNode" />
+              <item name="savinggame" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hello-world" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.database" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\my pc\IdeaProjects\VehicleManagement\" />
+      <recent name="C:\Users\my pc\IdeaProjects\VehicleManagement" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.racegame" />
+      <recent name="com.racegame.application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\my pc\IdeaProjects\VehicleManagement\src\com\racegame2" />
+      <recent name="C:\Users\my pc\IdeaProjects\VehicleManagement\src\com" />
+      <recent name="C:\Users\my pc\IdeaProjects\VehicleManagement\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.database" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GameSimulator (1)">
+    <configuration name="GameSimulator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.racegame.application.GameSimulator" />
+      <module name="VehicleManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.racegame.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.racegame2.application.GameSimulator" />
+      <module name="VehicleManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.racegame2.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.PersonDAO" />
+      <module name="VehicleManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TestDrive" />
+      <module name="VehicleManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameSimulator (1)" />
+        <item itemvalue="Application.TestDrive" />
+        <item itemvalue="Application.GameSimulator" />
+        <item itemvalue="Application.PersonDAO" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8605c010-7733-4085-b281-fddf5b176c68" name="Default Changelist" comment="" />
+      <created>1560490138764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560490138764</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28111273" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3206951" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5165877" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.53554505" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/TestDrive.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/TestDrive.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/racegame/RaceGame.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/vehicle/VehicleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/automobile/Automobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/INSTALLERS/MySQL/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="883" column="16" selection-start-line="883" selection-start-column="16" selection-end-line="883" selection-end-column="16" />
+          <folding>
+            <element signature="e#37718#37719#0" expanded="true" />
+            <element signature="e#37754#37755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vehicle/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/database/RaceRankingDAOTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/character/bidder/Bidder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Bidder#0;class#Bidder#0" />
+            <element signature="method#act#0;class#Bidder#0" />
+            <element signature="method#displayAllActions#0;class#Bidder#0" />
+            <element signature="method#setIsPlayer#0;class#Bidder#0" />
+            <element signature="e#2475#2476#0" expanded="true" />
+            <element signature="e#2523#2524#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+            <element signature="e#2656#2657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="101" column="18" lean-forward="true" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/updates" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/GameSimulator_v2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/RaceGame_v2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/savinggame/SaveGameStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/RaceRanking.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/InputChecker.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/Racer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/bidder/action/Booster.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/bidder/action/Obstacle.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/bidder/action/BidderActionStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/bidder/action/PutObstacleToTargetStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/savinggame/SaveGameForNewPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/character/bidder/Bidder.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame2/application/GameSimulator.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/RaceGame_Orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/GameSimulator_Orig.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/RaceGame_Orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/RaceGame_Orig_isaPagid">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="673" selection-start-line="673" selection-end-line="673" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/GameSimulator_Orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1104" column="19" selection-start-line="1104" selection-start-column="19" selection-end-line="1104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/InputChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/menucommands/MenuCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/automobile/Suv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/automobile/Sedan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/automobile/AutomobileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/automobile/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/RaceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="116" column="5" lean-forward="true" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#RaceDAO#0" />
+            <element signature="method#get#0;class#RaceDAO#0" />
+            <element signature="method#getAll#0;class#RaceDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/RaceRanking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#RaceRanking#0;class#RaceRanking#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/application/GameSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#greetPlayer#0;class#GameSimulator#0" />
+            <element signature="method#promptPlayerName#0;class#GameSimulator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/RaceRankingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="60" column="31" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#RaceRankingDAO#0" />
+            <element signature="method#getAllPlayerRankingIDs#0;class#RaceRankingDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/VehicleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="142" column="33" lean-forward="true" selection-start-line="142" selection-start-column="33" selection-end-line="142" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/RaceGameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getRacer#0;class#RaceGameLogic#0" />
+            <element signature="method#insertBidder#0;class#RaceGameLogic#0" />
+            <element signature="method#getBidderByName#0;class#RaceGameLogic#0" />
+            <element signature="method#getBidder#0;class#RaceGameLogic#0" />
+            <element signature="method#insertRaceRanking#0;class#RaceGameLogic#0" />
+            <element signature="method#getAllPlayerRankingIDs#0;class#RaceGameLogic#0" />
+            <element signature="method#getAllBiddersForRacers#0;class#RaceGameLogic#0" />
+            <element signature="method#getRaceGameOfPlayer#0;class#RaceGameLogic#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/BidderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#BidderDAO#0" />
+            <element signature="method#get#0;class#BidderDAO#0" />
+            <element signature="method#get#1;class#BidderDAO#0" />
+            <element signature="method#getBidderOfRacer#0;class#BidderDAO#0" />
+            <element signature="method#extractBidder#0;class#BidderDAO#0" />
+            <element signature="method#getAll#0;class#BidderDAO#0" />
+            <element signature="method#update#0;class#BidderDAO#0" />
+            <element signature="method#delete#0;class#BidderDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/ConnectionConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/RaceGameDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#RaceGameDAO#0" />
+            <element signature="method#get#0;class#RaceGameDAO#0" />
+            <element signature="method#getPlayerRaceGame#0;class#RaceGameDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/character/Racer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/database/RacerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAll#0;class#RacerDAO#0" />
+            <element signature="method#update#0;class#RacerDAO#0" />
+            <element signature="method#delete#0;class#RacerDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForExistingPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameForNewPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/RaceGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="389" column="25" selection-start-line="389" selection-start-column="25" selection-end-line="389" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/racegame/savinggame/SaveGameStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VehicleManagement</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
