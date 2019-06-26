@@ -9,8 +9,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-// Todo create a facade for DAOs to seperate responsibilities
-
 public class BidderDAO {
 
     private Connection dbConnection = null;
