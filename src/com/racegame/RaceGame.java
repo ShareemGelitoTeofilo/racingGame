@@ -573,6 +573,7 @@ public class RaceGame {
     }
 
     public Timestamp getDate() {
+        this.date = new java.sql.Timestamp(new Date().getTime());
         return date;
     }
 
